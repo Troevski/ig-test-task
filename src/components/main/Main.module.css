@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    grid-column-gap: 45px;
+  }
+
+  .gridItem {
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+  .nameTable{
+    font-weight: 650;
+    font-size: 20px;
+  }
